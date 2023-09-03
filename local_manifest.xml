@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="tao" fetch="https://github.com/isaquetp" />
+    <remote name="taotao" fetch="https://github.com/lenovo-sm8250-devs" />
+
+    <!-- DT -->
+    <project path="device/lenovo/moba" name="android_device_moba" remote="taotao" revision="los-18.1"  />
+
+    <!-- VENDOR -->
+    <project path="vendor/lenovo/moba" name="android_vendor_moba" remote="taotao" revision="11.0"  />
+
+
+    <!-- Kernel E Dependencias -->
+    <project path="kernel/lenovo/moba" name="android_kernel_moba" remote="tao" revision="4.19.81"  />
+
+</manifest>
