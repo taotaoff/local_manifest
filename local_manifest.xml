@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+  
+ <manifest> 
+  
+ <remote name="gitlab" fetch="https://gitlab.com" /> 
+ <remote name="github" fetch="https://github.com" />
+  
+ <!-- Trees --> 
+ <project path="device/lenovo/moba" name="lenovo-sm8250-devs/android_device_moba" remote="github" revision="los-20.0" /> 
+ <project path="vendor/lenovo/moba" name="lenovo-sm8250-devs/android_vendor_moba" remote="github" revision="11.0"  /> 
+ <project path="kernel/lenovo/moba" name="isaquetp/android_kernel_moba" remote="github" revision="4.19.81" /> 
+  
+ <!-- Cam --> 
+ <!-- <project path="vendor/xiaomi/miuicamera" name="userariii/vendor_xiaomi_miuicamera" remote="gitlab" revision="thirteen" /> --> 
+  
+ <!-- clang --> 
+<project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" />  
+  
+<manifest/> 
